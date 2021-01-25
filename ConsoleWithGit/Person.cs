@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleWithGit
 {
-    class Program
+   public  class Person
     {
-        static void Main(string[] args)
+        public void Show()
         {
-            Console.WriteLine("Hello to GitHub");
-            Person p = new Person();
-            p.Show();
+            Console.WriteLine("This is person show method");
         }
     }
-    
 }
